@@ -1,0 +1,6 @@
+- id: zizmor
+  name: zizmor
+  description: Lint GitHub Actions workflows
+  entry: zizmor --offline
+  language: rust
+  files: ^\.github/workflows/.*\.ya?ml$
